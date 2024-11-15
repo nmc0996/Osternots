@@ -1,0 +1,76 @@
+[
+{
+    "strName" : "ItmCanisterBigOrange01",
+    "strImg"  : "ItmCanisterBigOrange01",
+    "strImgNorm"  : "ItmCanisterLH02n",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintRust",
+    "fDmgComplexity" : 500,
+    "fZScale"  : 0.5,
+    "nCols"  : 7,
+    "aSocketAdds"    : [
+      "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", 
+      "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", 
+      "TILSubfloorAdds", "TILSubfloorAdds", "TIL2DeckAdds", "TIL2DeckAdds", "TIL2DeckAdds", "TILSubfloorAdds", "TILSubfloorAdds", 
+      "TILSubfloorAdds", "TILSubfloorAdds", "TIL2DeckAdds", "TIL2DeckAdds", "TIL2DeckAdds", "TILSubfloorAdds", "TILSubfloorAdds", 
+      "TILSubfloorAdds", "TILSubfloorAdds", "TIL2DeckAdds", "TIL2DeckAdds", "TIL2DeckAdds", "TILSubfloorAdds", "TILSubfloorAdds", 
+      "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", 
+      "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds", "TILSubfloorAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "Blank",
+      "Blank", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "Blank",
+      "Blank", "TILSubfloorForbids", "TILSubfloorForbids", "TIL2DeckForbids", "TIL2DeckForbids", "TIL2DeckForbids", "TILSubfloorForbids", "TILSubfloorForbids", "Blank",
+      "Blank", "TILSubfloorForbids", "TILSubfloorForbids", "TIL2DeckForbids", "TIL2DeckForbids", "TIL2DeckForbids", "TILSubfloorForbids", "TILSubfloorForbids", "Blank",
+      "Blank", "TILSubfloorForbids", "TILSubfloorForbids", "TIL2DeckForbids", "TIL2DeckForbids", "TIL2DeckForbids", "TILSubfloorForbids", "TILSubfloorForbids", "Blank",
+      "Blank", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "Blank",
+      "Blank", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "TILSubfloorForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "Blank",
+      "Blank", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "Blank",
+      "Blank", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "Blank",
+      "Blank", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "Blank",
+      "Blank", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "Blank",
+      "Blank", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "Blank",
+      "Blank", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+      "0.0,0.0,1.5,1.5"
+    ]
+  },
+  
+  {
+    "strName" : "ItmCanisterBigOrange01Loose",
+    "strImg"  : "ItmCanisterBigOrange01Loose",
+    "strImgNorm"  : "ItmCanisterLH02Loosen",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintRust",
+    "fDmgComplexity" : 500,
+    "fZScale"  : 0.5,
+    "nCols"  : 3,
+    "aSocketAdds"    : [
+      "TILItemAdds", "TILItemAdds", "TILItemAdds", 
+      "TILItemAdds", "TILItemAdds", "TILItemAdds", 
+      "TILItemAdds", "TILItemAdds", "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank"
+    ]
+  }
+]

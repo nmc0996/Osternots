@@ -1,0 +1,42 @@
+[
+	{
+		"strName" : "CanisterBigOrange01Undamage", 
+		"strActionCO" : "ItmCanisterBigOrange01", 
+		"strActionGroup" : "Work", 
+		"strTooltip" : "Reduces item's wear and tear to prevent damage.",  
+		"strInteractionTemplate" : "ACTUndamageTEMP", 
+		"CTThem" :  "TIsUndamageableNotContained" , 
+		"aInputs" : [  ], 
+		"fTargetPointRange" : 3.0, 
+		"fDuration" : 0.001, 
+		"bSparks" : true, 
+		"aToolCTsUse" : [ "TIsToolMortorq", "TIsToolWelding" ], 
+		"aLootCOs" : [ "ItmCanisterBigOrange01" ], 
+		"strJobType" : "repair", 
+		"strAllowLootCTsUs" : "CTWorkProgressHVAC", 
+		"strAllowLootCTsThem" : "CONDUndamageProgress", 
+		"strProgressStat" : "StatDamage", 
+		"strCTThemMultCondTools" : "IsToolMortorq", 
+		"strCTThemMultCondUs" : "StatInstallRateHVAC" 
+	},
+    {
+		"strName" : "CanisterBigOrange01LooseUndamage", 
+		"strActionCO" : "ItmCanisterBigOrange01Loose", 
+		"strActionGroup" : "Work", 
+		"strTooltip" : "Reduces item's wear and tear to prevent damage.",  
+		"strInteractionTemplate" : "ACTUndamageTEMP", 
+		"CTThem" :  "TIsUndamageableNotContained" , 
+		"aInputs" : [  ], 
+		"fTargetPointRange" : 3.0, 
+		"fDuration" : 0.001, 
+		"bSparks" : true, 
+		"aToolCTsUse" : [ "TIsToolMortorq", "TIsToolWelding" ], 
+		"aLootCOs" : [ "ItmCanisterBigOrange01Loose" ], 
+		"strJobType" : "repair", 
+		"strAllowLootCTsUs" : "CTWorkProgressHVAC", 
+		"strAllowLootCTsThem" : "CONDUndamageProgress", 
+		"strProgressStat" : "StatDamage", 
+		"strCTThemMultCondTools" : "IsToolMortorq", 
+		"strCTThemMultCondUs" : "StatInstallRateHVAC" 
+	}
+]

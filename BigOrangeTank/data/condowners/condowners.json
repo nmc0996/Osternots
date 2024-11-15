@@ -1,0 +1,94 @@
+[
+{
+    "strName" : "ItmCanisterBigOrange01Loose",
+    "strNameShort" : "Gas Tank",
+    "strNameFriendly" : "Gas Reservoir (Loose)",
+    "strDesc" : "A generic compressed gas reservoir, capable of holding mixed gasses at high pressurization. Particularly useful for temporary and waste gas storage.",
+    "strItemDef" : "ItmCanisterBigOrange01Loose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "IsVesselBigOrange=1.0x1",
+      "StatBasePrice=1.0x2542.0",
+      "StatGasMolN2=1.0x0.0001",
+      "StatGasTemp=1.0x0.01",
+      "StatInstallProgressMax=1.0x800",
+      "StatUninstallProgressMax=1.0x800",
+      "StatVolume=1.0x10.1",
+      "StatMass=1.0x300.0",
+      "IsGasMolChanged=1.0x1",
+      "StatDamageMax=1.0x40",
+      "IsMechanical=1.0x1",
+      "IsCategoryLifeSupport=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTMechDestroy,StatDamageMax,1.0"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPpCH4=1",
+      "DcGasPpCO2=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpNH3=1",
+      "DcGasPpN2=1",
+      "DcGasPpO2=1"
+    ],
+    "strPortraitImg"  : "ItmCanisterBigOrange01Loose"
+  },
+  {
+    "strName" : "ItmCanisterBigOrange01",
+    "strNameShort" : "Gas Tank",
+    "strNameFriendly" : "Gas Reservoir",
+    "strDesc" : "A generic compressed gas reservoir, capable of holding mixed gasses at high pressurization. Particularly useful for temporary and waste gas storage.",
+    "strItemDef" : "ItmCanisterBigOrange01",
+    "strType"    : "Item",
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAirtight=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsVesselBigOrange=1.0x1",
+      "StatBasePrice=1.0x2542.0",
+      "StatGasMolN2=1.0x0.0001",
+      "StatGasTemp=1.0x0.01",
+      "StatInstallProgressMax=1.0x800",
+      "StatUninstallProgressMax=1.0x800",
+      "StatVolume=1.0x10.1",
+      "StatMass=1.0x300.0",
+      "IsGasMolChanged=1.0x1",
+      "StatDamageMax=1.0x40",
+      "IsMechanical=1.0x1",
+      "IsCategoryLifeSupport=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTMechDestroy,StatDamageMax,1.0"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPpCH4=1",
+      "DcGasPpCO2=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpNH3=1",
+      "DcGasPpN2=1",
+      "DcGasPpO2=1"
+    ],
+    "strPortraitImg"  : "ItmCanisterBigOrange01",
+    "strAudioEmitter": "ItmCanisterLHe02Sound"
+  }
+]

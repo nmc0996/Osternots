@@ -1,0 +1,4 @@
+[
+	{ "strName" : "ItmCanisterBigOrange01", "aCOs" : [ "ItmCanisterBigOrange01=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+	{ "strName" : "ItmCanisterBigOrange01Loose", "aCOs" : [ "ItmCanisterBigOrange01Loose=1.0x1" ], "aLoots" : [ ], "strType" : "item" }
+]
