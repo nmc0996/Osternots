@@ -1,0 +1,427 @@
+[
+	{
+		"strName" : "ItmRandomShooSSet01",
+		"aCOs"    : [
+		  "OutfitShooSAlexander01L=1.0x1",
+		  "OutfitShooSAlexander01R=1.0x1"
+		],
+		"aLoots"  : [
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomShooSSet02",
+		"aCOs"    : [
+		  "OutfitShooSAlexander02L=1.0x1",
+		  "OutfitShooSAlexander02R=1.0x1"
+		],
+		"aLoots"  : [
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomShooSSet03",
+		"aCOs"    : [
+		  "OutfitShooSBoot01L=1.0x1",
+		  "OutfitShooSBoot01R=1.0x1"
+		],
+		"aLoots"  : [
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomShooSSet04",
+		"aCOs"    : [
+		  "OutfitShooSBoot03L=1.0x1",
+		  "OutfitShooSBoot03R=1.0x1"
+		],
+		"aLoots"  : [
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomShooSSet05",
+		"aCOs"    : [
+		  "OutfitShooSGatorz01L=1.0x1",
+		  "OutfitShooSGatorz01R=1.0x1"
+		],
+		"aLoots"  : [
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomShooSSet06",
+		"aCOs"    : [
+		  "OutfitShooSGatorz02L=1.0x1",
+		  "OutfitShooSGatorz02R=1.0x1"
+		],
+		"aLoots"  : [
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomShooSSet07",
+		"aCOs"    : [
+		  "OutfitShooSBoot02L=1.0x1",
+		  "OutfitShooSBoot02R=1.0x1"
+		],
+		"aLoots"  : [
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomShooSSet08",
+		"aCOs"    : [
+		  "OutfitShooSLola01L=1.0x1",
+		  "OutfitShooSLola01R=1.0x1"
+		],
+		"aLoots"  : [
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmShooSSpaceSocksSet",
+		"aCOs"    : [
+		  "OutfitShooSSocksSpace01=1.0x2"
+		],
+		"aLoots"  : [
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomGatorzMatched",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+		  "ItmRandomShooSSet05=0.5x1|ItmRandomShooSSet06=0.5x1"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomShoesMatched",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+		  "ItmRandomShoesSet00=0.1x1|ItmRandomShooSSet05=0.1x1|ItmRandomShooSSet06=0.1x1|ItmRandomShoesSet02=0.1x1|ItmRandomShooSSet03=0.1x1|ItmRandomShooSSet04=0.1x1|ItmRandomShoesSet03=0.1x1|ItmRandomShooSSet08=0.1x1|ItmRandomShooSSet01=0.1x1|ItmRandomShooSSet02=0.1x1"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomShoeSingleL",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+		  "ItmShoe01L=0.12x1|OutfitShoeSneaker01L=0.12x1|OutfitShoeSneaker02L=0.12x1|OutfitShoeSneaker03L=0.08x1|OutfitShooSBoot01L=0.08x1|OutfitShooSBoot03L=0.08x1|OutfitShooSGatorz01L=0.08x1|OutfitShooSGatorz02L=0.08x1|OutfitShooSLola01L=0.08x1|OutfitShooSAlexander01L=0.06x1|OutfitShooSAlexander02L=0.06x1|OutfitShooSBoot02L=0.04x1"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomShoeSingleR",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+		  "ItmShoe01R=0.12x1|OutfitShoeSneaker01R=0.12x1|OutfitShoeSneaker02R=0.12x1|OutfitShoeSneaker03R=0.08x1|OutfitShooSBoot01R=0.08x1|OutfitShooSBoot03R=0.08x1|OutfitShooSGatorz01R=0.08x1|OutfitShooSGatorz02R=0.08x1|OutfitShooSLola01R=0.08x1|OutfitShooSAlexander01R=0.06x1|OutfitShooSAlexander02R=0.06x1|OutfitShooSBoot02R=0.04x1"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomClothesJacket",
+		"aCOs"    : [
+		  "OutfitSuit01=0.16x1|OutfitShooSJacket01=0.16x1|OutfitShooSLongcoat01=0.18x1|OutfitShooSJacketLeather01=0.18x1|OutfitShooSJacketLeather02=0.16x1|OutfitShooSJacketLeather03=0.16x1"
+		],
+		"aLoots"  : [
+		],
+		"strType" : "item"
+		},
+		{
+		"strName" : "ItmRandomClothesTorso",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+		  "ItmRandomClothesTShirt=0.71x1|OutfitShooSShirt01=0.10x1|ItmRandomClothesItmShirt01=0.15x1|ItmShirtHoodie01=0.04x1"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomClothesLegs",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+		  "ItmRandomClothesLeggings=0.12x1|ItmPants01=0.04x1|OutfitShooSShorts01=0.04x1|OutfitShooSSkirtCargo=0.3x1|OutfitCargoPants01=0.15x1|OutfitCargoPants02=0.15x1|OutfitCargoPants03=0.14x1|OutfitCargoPants04=0.15x1|OutfitCargoPantsStrapped01=0.03x1|OutfitCargoPantsStrapped02=0.05x1|OutfitCargoPantsStrapped03=0.05x1|OutfitCargoPantsStrapped04=0.05x1|OutfitShooSSkirt01=0.1x1"
+		],
+		"strType" : "item"
+    },
+	{
+		"strName" : "ItmRandomSock",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+		  "OutfitShooSSockSpace01=0.19x1|OutfitShooSSockRibbed01=0.12x1|OutfitShooSSockRibbed02=0.14x1|OutfitShooSSockRibbed03=0.23x1|OutfitShooSSockRibbed04=0.15x1|OutfitShooSSockLong02=0.10x1|OutfitShooSSockLong01=0.07x1"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomSockSet",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+		  "OutfitShooSSockSpace01=0.19x2|OutfitShooSSockRibbed01=0.12x2|OutfitShooSSockRibbed02=0.14x2|OutfitShooSSockRibbed03=0.23x2|OutfitShooSSockRibbed04=0.15x2|OutfitShooSSockLong02=0.10x2|OutfitShooSSockLong01=0.07x2"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomMismatchedSocks",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+			"ItmRandomSock=1.0x1",
+			"ItmRandomSock=1.0x1"
+		],
+		"strType" : "item"
+    },
+	{
+		"strName" : "ItmRandomSocks",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+		  "ItmRandomSockSet=0.5x1|ItmRandomMismatchedSocks=0.5x1"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomClothesSingleLoots",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+		  "ItmRandomClothesOnePieceOutfit=0.20x1|ItmRandomClothesJacket=0.1x1|ItmRandomClothesTorso=0.45x1|ItmRandomClothesLegs=0.15x1|ItmRandomShoeSingle=0.05x1|ItmRandomSock=0.05x1"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomClothesMultiPieceAndShoes",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+		  "ItmRandomClothesJacket=0.3x1",
+		  "ItmRandomClothesTorso=1.0x1",
+		  "ItmRandomClothesTShirt=0.75x1",
+		  "ItmRandomClothesLegs=1.0x1",
+		  "ItmRandomShoesMatched=1.0x1",
+		  "ItmRandomSocks=0.5x1"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomClothesMultiPieceNoShoes",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+		  "ItmRandomClothesJacket=0.3x1",
+		  "ItmRandomClothesTorso=1.0x1",
+		  "ItmRandomClothesTShirt=0.75x1",
+		  "ItmRandomClothesLegs=1.0x1",
+		  "ItmRandomSocks=0.5x1"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomClothesOnePieceAndShoes",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+		  "ItmRandomClothesOnePieceOutfit=1.0x1",
+		  "ItmRandomClothesTShirt=0.75x1",
+		  "ItmRandomShoesMatched=1.0x1",
+		  "ItmRandomClothesJacket=0.1x1",
+		  "ItmRandomSocks=0.5x1"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomClothesOnePieceNoShoes",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+		  "ItmRandomClothesOnePieceOutfit=1.0x1",
+		  "ItmRandomClothesTShirt=0.75x1",
+		  "ItmRandomClothesJacket=0.1x1",
+		  "ItmRandomSocks=0.5x1"
+		],
+		"strType" : "item"
+	},
+	{
+    "strName" : "ItmPirateStartLootSuitWeapon",
+    "aCOs"    : [
+    ],
+    "aLoots"  : [
+      "ItmCrewSlots=1.0x1",
+      "ItmRandomEVASuitFull=1.0x1",
+	  "ItmRandomPirateHood=0.5x1",
+	  "OutfitShooSDogfur01=0.2x1",
+      "ItmCrate01=1.0x1",
+      "ItmRandomWeapon=1.0x1-2",
+      "ItmRandomDrinkLiquor=0.2x1",
+      "ItmAntiGravPen01=0.25x1-2",
+      "ItmCigBoxUsed=0.2x1"
+    ],
+    "strType" : "item"
+  },
+    {
+      "strName" : "ItmPirateStartLootSuitWeaponVenus",
+      "aCOs"    : [
+      ],
+      "aLoots"  : [
+        "ItmCrewSlots=1.0x1",
+        "ItmRandomClothesLeggings=1.0x1",
+        "ItmRandomEVASuitFull=1.0x1",
+		"ItmRandomPirateHood=0.5x1",
+	    "OutfitShooSDogfur01=0.2x1",
+        "ItmCrate01=1.0x1",
+        "ItmRandomWeapon=1.0x1-2",
+        "ItmRandomDrinkLiquor=0.2x1",
+        "ItmAntiGravPen01=0.25x1-2",
+        "ItmCigBoxUsed=0.2x1"
+      ],
+      "strType" : "item"
+    },
+	{
+		"strName" : "ItmRandomPirateHood",
+		"aCOs"    : [
+		],
+		"aLoots"  : [      
+		  "OutfitShooSEVAHoodPirate01=0.5x1|OutfitShooSEVAHoodPirate02=0.5x1"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomAmmo",
+		"aCOs"    : [
+		],
+		"aLoots"  : [      
+		  "ItmAmmo45=0.03x1-3|ItmAmmo9mm=0.04x1-8|ItmAmmo38=0.03x1-3|ItmAmmoHullsafe=0.9x1-10|ItmAmmo12Gauge=0.03x1-2",
+		  "ItmAmmoCasings01=0.03x1-10"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomAmmoRare",
+		"aCOs"    : [
+		],
+		"aLoots"  : [      
+		  "ItmAmmo45=0.25x1-10|ItmAmmo9mm=0.25x1-10|ItmAmmo38=0.25x1-10|ItmAmmo12Gauge=0.25x1-5"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmRandomClothesSingleTraders",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+		  "ItmRandomGatorz=0.2x1",
+		  "OutfitShooSSockSpace01=1.0x1",
+		  "OutfitShooSShorts01=0.2x1",
+		  "ItmRandomSockSet=0.5x1", "ItmRandomClothesOnePieceOutfit=0.25x1|ItmRandomClothesJacket=0.1x1|ItmRandomClothesTorso=0.4x1|ItmRandomClothesLegs=0.15x1|ItmRandomShoesMatched=0.1x1"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmOKLGFixer",
+		"aCOs"    : [
+		  "OutfitPS01=0.2x1",
+		  "OutfitHelmet02=0.2x1",
+		  "OutfitHelmet03=0.2x1",
+		  "OutfitHelmet04=0.05x1",
+		  "OutfitSuit07=0.15x1",
+		  "OutfitShooSDogfur01=0.1x1",
+		  "ItmRCSDistro01Loose=0.2x1",
+		  "ItmBattery04=0.2x1",
+		  "ItmChargerBattery04OffLoose=0.2x1",
+		  "ItmStationNavLoose=0.2x1",
+		  "ItmChargerBattEVAOffLoose=0.2x1",
+		  "DataBINPDACracker=0.2x1|DataBINRobotCracker=0.2x1"
+		],
+		"aLoots"  : [
+		  "OutfitEVA01Full=0.2x1|OutfitEVA05Full=0.11x1|OutfitEVA07Full=0.03x1|OutfitEVA08Full=0.03x1|OutfitEVA09Full=0.03x1",
+		  "OutfitEVA03Full=0.045x1|OutfitEVA06Full=0.005x1",
+		  "ItmRandomPirateHood=0.4x1-2",
+		  "ItmToolLaserTorch01Used=0.2x1",
+		  "ItmWeaponPistolEnergy01=1.0x1-2",
+		  "ItmWeaponShooSSawedOff01Used=0.07x1",
+		  "ItmAmmo12Gauge=0.15x1-5",
+		  "ItmAmmoHullsafe=1.0x20-40",
+		  "ItmWeaponShiv01=1.0x1-2",
+		  "ItmRandomWeaponMelee=0.7x1-2",
+		  "ItmFusionReactorCore01Loose=0.5x1-4",
+		  "ItmRandomFusionPart=0.5x1-3"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmShooSEverything",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+		  "OutfitShooSAlexander01L=1.0x1",
+		  "OutfitShooSAlexander01R=1.0x1",
+		  "OutfitShooSAlexander02L=1.0x1",
+		  "OutfitShooSAlexander02R=1.0x1",
+		  "OutfitShooSBoot01L=1.0x1",
+		  "OutfitShooSBoot01R=1.0x1",
+		  "OutfitShooSBoot02L=1.0x1",
+		  "OutfitShooSBoot02R=1.0x1",
+		  "OutfitShooSBoot03L=1.0x1",
+		  "OutfitShooSBoot03R=1.0x1",
+		  "OutfitShooSGatorz01L=1.0x1",
+		  "OutfitShooSGatorz01R=1.0x1",
+		  "OutfitShooSGatorz02L=1.0x1",
+		  "OutfitShooSGatorz02R=1.0x1",
+		  "OutfitShooSLola01L=1.0x1",
+		  "OutfitShooSLola01R=1.0x1",
+		  "OutfitShooSShirt01=1.0x1",
+		  "OutfitShooSShorts01=1.0x1",
+		  "OutfitShooSSkirt01=1.0x1",
+		  "OutfitShooSSkirtCargo01=1.0x1",
+		  "OutfitShooSSockLong01=1.0x2",
+		  "OutfitShooSSockLong02=1.0x2",
+		  "OutfitShooSSockRibbed01=1.0x2",
+		  "OutfitShooSSockRibbed02=1.0x2",
+		  "OutfitShooSSockRibbed03=1.0x2",
+		  "OutfitShooSSockRibbed04=1.0x2",
+		  "OutfitShooSSockSpace01=1.0x2",
+		  "OutfitShooSJacket01=1.0x1",
+		  "OutfitShooSLongcoat01=1.0x1",
+		  "OutfitShooSJacketLeather01=1.0x1",
+		  "OutfitShooSJacketLeather02=1.0x1",
+		  "OutfitShooSJacketLeather03=1.0x1",
+		  "OutfitShooSEVAHoodPirate01=1.0x1",
+		  "OutfitShooSEVAHoodPirate02=1.0x1",
+		  "OutfitShooSDogfur01=1.0x1"
+		],
+		"strType" : "item"
+	},
+	{
+		"strName" : "ItmShooSNew",
+		"aCOs"    : [
+		],
+		"aLoots"  : [
+		  "OutfitShooSJacketLeather01=1.0x1",
+		  "OutfitShooSJacketLeather02=1.0x1",
+		  "OutfitShooSJacketLeather03=1.0x1",
+		  "OutfitShooSEVAHoodPirate01=1.0x1",
+		  "OutfitShooSEVAHoodPirate02=1.0x1",
+		  "OutfitShooSDogfur01=1.0x1"
+		],
+		"strType" : "item"
+	},
+	{ "strName" : "ItmWeaponShooSSawedOff01New", "aCOs" : [ "ItmWeaponShooSSawedOff01=1.0x1" ], "aLoots" : ["ItmWeaponShotgun01Contents=1.0x1" ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+	{ "strName" : "ItmWeaponShooSSawedOff01Used", "aCOs" : [ "ItmWeaponShooSSawedOff01=1.0x1" ], "aLoots" : [ "ItmAmmo12Gauge=0.5x1-6" ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+	{ "strName" : "CNDOLOutfitShooSBoot02", "aCOs" : [ "IsCurio=1.0x1.0","StatBasePrice=1.0x5528" ], "aLoots" : [], "strType" : "condition" },
+	{ "strName" : "CNDOLOutfitShooSBoot03", "aCOs" : [ "-IsBrown=1.0x1.0", "IsBlack=1.0x1", "StatBasePrice=1.0x111" ], "aLoots" : [], "strType" : "condition" },
+	{ "strName" : "CNDOLOutfitShooSLola01", "aCOs" : [ "-IsBlackWing=1.0x1.0", "IsShooS=1.0x1.0", "StatBasePrice=1.0x51" ], "aLoots" : [], "strType" : "condition" },
+	{ "strName" : "CNDOLOutfitShooSAlexander01", "aCOs" : [ "-IsBlackWing=1.0x1.0", "IsShooS=1.0x1.0", "StatBasePrice=1.0x95" ], "aLoots" : [], "strType" : "condition" },
+	{ "strName" : "CNDOLOutfitShooSAlexander02", "aCOs" : [ "-IsBlackWing=1.0x1.0", "IsShooS=1.0x1.0", "-IsBlack=1.0x1.0", "IsRed=1.0x1.0", "StatBasePrice=1.0x95" ], "aLoots" : [], "strType" : "condition" },
+	{ "strName" : "CNDOLOutfitShooSGatorz02", "aCOs" : [ "-IsGreen=1.0x1.0", "IsRed=1.0x1.0" ], "aLoots" : [], "strType" : "condition" },
+	{ "strName" : "CNDOLItmWeaponShooSSawedOff01", "aCOs" : [ "-IsNotForSale=1.0x1.0", "StatBasePrice=1.0x7261" ], "aLoots" : [], "strType" : "condition" },
+	{ "strName" : "CNDOLOutfitShooSShirt01", "aCOs" : ["IsShooS=1.0x1.0", "StatBasePrice=1.0x92"], "aLoots" : [], "strType" : "condition" }
+
+]

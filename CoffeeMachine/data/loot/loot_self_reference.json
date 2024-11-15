@@ -1,0 +1,5 @@
+[
+{ "strName" : "ItmCoffeeMachine", "aCOs" : [ "ItmVendingMachineCoffee=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmCoffeeMachineLoose", "aCOs" : [ "ItmVendingMachineCoffeeLoose=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmCoffeeMachineDmgLoose", "aCOs" : [ "ItmVendingMachineCoffeeDmgLoose=1.0x1" ], "aLoots" : [ ], "strType" : "item" }
+]

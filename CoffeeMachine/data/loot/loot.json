@@ -1,0 +1,6 @@
+[
+{ "strName" : "ACTVendingMachineCoffeeDamage", "aCOs" : [ "MSVendingMachineCoffeeDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTVendingMachineCoffeeDestroy", "aCOs" : [ "MSVendingMachineCoffeeDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTVendingMachineCoffeeLooseDamage", "aCOs" : [ "MSVendingMachineCoffeeLooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTVendingMachineCoffeeLooseDestroy", "aCOs" : [ "MSVendingMachineCoffeeLooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" }
+ ]

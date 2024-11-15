@@ -1,0 +1,40 @@
+[
+
+	{ 
+		"strName" : "VendingMachineCoffeeDismantle", 
+		"strActionCO" : "ItmVendingMachineCoffee", 
+		"strActionGroup" : "Work", 
+		"strTooltip" : "Carefully deconstructs item into component parts (Non-reversible).", "strInteractionTemplate" : "ACTDismantleTEMP", 
+		"CTThem" :  "TCanBeDismantled" , 
+		"aInputs" : [  ], 
+		"fTargetPointRange" : 2.0, 
+		"fDuration" : 0.001, 
+		"bSparks" : true, 
+		"aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], 
+		"strLootOut" : "ItmVendingMachineCoffeeDismantle", 
+		"strJobType" : "dismantle", 
+		"strAllowLootCTsUs" : "CTWorkProgressAPPS", 
+		"strAllowLootCTsThem" : "CONDDismantleProgress", 
+		"strProgressStat" : "StatDismantleProgress", 
+		"strCTThemMultCondTools" : "IsToolMortorq", 
+		"strCTThemMultCondUs" : "StatInstallRateAPPS" 
+	},
+    {
+		"strName" : "VendingMachineCoffeeLooseDismantle", 
+		"strActionCO" : "ItmVendingMachineCoffeeLoose", 
+		"strActionGroup" : "Work", 
+		"strTooltip" : "Carefully deconstructs item into component parts (Non-reversible).", "strInteractionTemplate" : "ACTDismantleTEMP", 
+		"CTThem" :  "TCanBeDismantled" , 
+		"aInputs" : [  ], 
+		"fTargetPointRange" : 2.0, 
+		"fDuration" : 0.001, 
+		"bSparks" : true, 
+		"aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], 
+		"strLootOut" : "ItmVendingMachineCoffeeDismantle", 
+		"strJobType" : "dismantle", 
+		"strAllowLootCTsUs" : "CTWorkProgressAPPS", 
+		"strAllowLootCTsThem" : "CONDDismantleProgress", 
+		"strProgressStat" : "StatDismantleProgress", 
+		"strCTThemMultCondTools" : "IsToolMortorq", "strCTThemMultCondUs" : "StatInstallRateAPPS" 
+	}
+]

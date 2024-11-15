@@ -1,0 +1,17 @@
+[
+	{
+    "strName" : "SLOTWieldWeaponShotgun01L",
+    "strDesc" : "[them] is wielding [us].",
+    "strThemType"       : "Other",
+    "nLogging"         : 0,
+    "bOpener"  :true,
+    "LootCondsUs"         : "CONDWieldedDefaultL",
+    "LootCondsThem"       : "CONDWieldWeaponShotgun01",
+    "CTTestUs"          : null,
+    "CTTestThem"        : "TIsWielder",
+    "aAModesAddedThem"         : [
+      "ACTMeleeWeaponShaft;AModeShotgun01Stock;CTWieldedL",
+      "ACTMeleeWeaponShaftTired;AModeShotgun01Stock;CTWieldedL"
+    ]
+  }
+]

@@ -1,0 +1,337 @@
+[
+	{
+        "strName" : "OutfitShooSBoot02L",
+        "strNameFriendly" : "Boot: ShooS \"Cattleman\" (Left)",
+        "strDesc" : "The original boot. There's only a handful of these still surviving. Made from 100% authentic letter-graded leather.",
+        "strImg"  : "ItmShooSBoot01L",
+        "strImgNorm"  : "ItmShooSBoot01Ln",
+        "strPortraitImg"  : "ItmShooSBoot01L",
+        "strCOBase"    : "OutfitShooSBoot01L",
+        "strCondLoot"    : "CNDOLOutfitShooSBoot02",
+        "mapSlotEffects" : [
+            "shoeL","BodyShooSBoot02L",
+            "shoeR","BodyShooSBoot02RWrong",
+            "heldL","HeldItmDefaultL",
+            "heldR","HeldItmDefaultR"
+        ]
+    },
+    {
+        "strName" : "OutfitShooSBoot02R",
+        "strNameFriendly" : "Boot: ShooS \"Cattleman\" (Right)",
+        "strDesc" : "The original boot. There's only a handful of these still surviving. Made from 100% authentic letter-graded leather.",
+        "strImg"  : "ItmShoosBoot01R",
+        "strImgNorm"  : "ItmShooSBoot01Rn",
+        "strPortraitImg"  : "ItmShooSBoot01R",
+        "strCOBase"    : "OutfitShooSBoot01R",
+        "strCondLoot"    : "CNDOLOutfitShooSBoot02",
+        "mapSlotEffects" : [
+            "shoeR","BodyShooSBoot02R",
+            "shoeL","BodyShooSBoot02LWrong",
+            "heldL","HeldItmDefaultL",
+            "heldR","HeldItmDefaultR"
+        ]
+    },
+	{
+        "strName" : "OutfitShooSBoot03L",
+        "strNameFriendly" : "Boot: ShooS \"Marauder\" (Left)",
+        "strDesc" : "A limited edition western boot by Sheriff of outer Space. Made from 100% cruelty-free materials.",
+        "strImg"  : "ItmShooSBoot03L",
+        "strImgNorm"  : "ItmShooSBoot01Ln",
+        "strPortraitImg"  : "ItmShooSBoot03L",
+        "strCOBase"    : "OutfitShooSBoot01L",
+        "strCondLoot"    : "CNDOLOutfitShooSBoot03",
+        "mapSlotEffects" : [
+            "shoeL","BodyShooSBoot03L",
+            "shoeR","BodyShooSBoot03RWrong",
+            "heldL","HeldItmDefaultL",
+            "heldR","HeldItmDefaultR"
+        ]
+    },
+    {
+        "strName" : "OutfitShooSBoot03R",
+        "strNameFriendly" : "Shoe: ShooS \"Marauder\" (Right)",
+        "strDesc" : "A limited edition western boot by Sheriff of outer Space. Made from 100% cruelty-free materials.",
+        "strImg"  : "ItmShooSBoot03R",
+        "strImgNorm"  : "ItmShooSBoot01Rn",
+        "strPortraitImg"  : "ItmShooSBoot01R",
+        "strCOBase"    : "OutfitShooSBoot01L",
+        "strCondLoot"    : "CNDOLOutfitShooSBoot03",
+        "mapSlotEffects" : [
+            "shoeR","BodyShooSBoot03R",
+            "shoeL","BodyShooSBoot03LWrong",
+            "heldL","HeldItmDefaultL",
+            "heldR","HeldItmDefaultR"
+        ]
+    },
+	{
+        "strName" : "OutfitShooSGatorz02L",
+        "strNameFriendly" : "Shoe: Eleganz \"Gatorz\" (Left)",
+        "strDesc" : "The iconic foam clog from Eleganz, now produced without license in space using molds that still bear the old brand logo.",
+        "strImg"  : "ItmShooSGatorz02L",
+        "strImgNorm"  : "ItmShooSGatorz01Ln",
+        "strPortraitImg"  : "ItmShooSGatorz02L",
+        "strCOBase"    : "OutfitShooSGatorz01R",
+		"strCondLoot"    : "CNDOLOutfitShooSGatorz02",
+        "mapSlotEffects" : [
+            "shoeL","BodyShooSGatorz02L",
+            "shoeR","BodyShooSGatorz02RWrong",
+            "heldL","HeldItmDefaultSoftL",
+		    "heldR","HeldItmDefaultSoftR"
+        ]
+	},
+	{
+        "strName" : "OutfitShooSGatorz02R",
+        "strNameFriendly" : "Shoe: Eleganz \"Gatorz\" (Right)",
+        "strDesc" : "The iconic foam clog from Eleganz, now produced without license in space using molds that still bear the old brand logo.",
+        "strImg"  : "ItmShooSGatorz02R",
+        "strImgNorm"  : "ItmShooSGatorz01Rn",
+        "strPortraitImg"  : "ItmShooSGatorz02R",
+        "strCOBase"    : "OutfitShooSGatorz01R",
+		"strCondLoot"    : "CNDOLOutfitShooSGatorz02",
+        "mapSlotEffects" : [
+            "shoeL","BodyShooSGatorz02LWrong",
+            "shoeR","BodyShooSGatorz02R",
+            "heldL","HeldItmDefaultSoftL",
+		    "heldR","HeldItmDefaultSoftR"
+        ]
+	},
+	{
+        "strName" : "OutfitShooSLola01L",
+        "strNameFriendly" : "Shoe: ShooS \"Lola\" (Left)",
+        "strDesc" : "A faux-leather platform shoe in classic gothic style; designed for microgravity.",
+        "strImg"  : "ItmShooSLola01L",
+        "strImgNorm"  : "ItmShooSLola01Ln",
+        "strPortraitImg"  : "ItmShooSLola01L",
+        "strCOBase"    : "ItmShoe01L",
+        "strCondLoot"    : "CNDOLOutfitShooSLola01",
+        "mapSlotEffects" : [
+            "shoeL","BodyShooSLola01L",
+            "shoeR","BodyShooSLola01RWrong",
+            "heldL","HeldItmDefaultL",
+            "heldR","HeldItmDefaultR"
+        ]
+	},
+	{
+        "strName" : "OutfitShooSLola01R",
+        "strNameFriendly" : "Shoe: ShooS \"Lola\" (Right)",
+        "strDesc" : "A faux-leather platform shoe in classic gothic style; designed for microgravity.",
+        "strImg"  : "ItmShooSLola01R",
+        "strImgNorm"  : "ItmShooSLola01Rn",
+        "strPortraitImg"  : "ItmShooSLola01R",
+        "strCOBase"    : "ItmShoe01R",
+        "strCondLoot"    : "CNDOLOutfitShooSLola01",
+        "mapSlotEffects" : [
+            "shoeL","BodyShooSLola01LWrong",
+            "shoeR","BodyShooSLola01R",
+            "heldL","HeldItmDefaultL",
+            "heldR","HeldItmDefaultR"
+        ]
+	},
+	{
+        "strName" : "OutfitShooSAlexander01L",
+        "strNameFriendly" : "Shoe: ShooS \"Alexander\" (Left)",
+        "strDesc" : "A practical but fashionable flat - an original Ion Cizmaru design for Sheriff of outer Space's Business Classy line.",
+        "strImg"  : "ItmShooSAlexander01L",
+        "strImgNorm"  : "ItmShooSAlexander01Ln",
+        "strPortraitImg"  : "ItmShooSAlexander01L",
+        "strCOBase"    : "ItmShoe01L",
+        "strCondLoot"    : "CNDOLOutfitShooSAlexander01",
+        "mapSlotEffects" : [
+            "shoeL","BodyShooSAlexander01L",
+            "shoeR","BodyShooSAlexander01RWrong",
+            "heldL","HeldItmDefaultL",
+            "heldR","HeldItmDefaultR"
+        ]
+	},
+	{
+        "strName" : "OutfitShooSAlexander01R",
+        "strNameFriendly" : "Shoe: ShooS \"Alexander\" (Right)",
+        "strDesc" : "A practical but fashionable flat - an original Ion Cizmaru design for Sheriff of outer Space's Business Classy line.",
+        "strImg"  : "ItmShooSAlexander01R",
+        "strImgNorm"  : "ItmShooSAlexander01Rn",
+        "strPortraitImg"  : "ItmShooSAlexander01R",
+        "strCOBase"    : "ItmShoe01R",
+        "strCondLoot"    : "CNDOLOutfitShooSAlexander01",
+        "mapSlotEffects" : [
+            "shoeL","BodyShooSAlexander01LWrong",
+            "shoeR","BodyShooSAlexander01R",
+            "heldL","HeldItmDefaultL",
+            "heldR","HeldItmDefaultR"
+        ]
+	},
+	{
+        "strName" : "OutfitShooSAlexander02L",
+        "strNameFriendly" : "Shoe: ShooS \"Alexander\" (Left)",
+        "strDesc" : "A practical but fashionable flat - an original Ion Cizmaru design for Sheriff of outer Space's Business Classy line.",
+        "strImg"  : "ItmShooSAlexander02L",
+        "strImgNorm"  : "ItmShooSAlexander01Ln",
+        "strPortraitImg"  : "ItmShooSAlexander02L",
+        "strCOBase"    : "ItmShoe01L",
+        "strCondLoot"    : "CNDOLOutfitShooSAlexander02",
+        "mapSlotEffects" : [
+            "shoeL","BodyShooSAlexander02L",
+            "shoeR","BodyShooSAlexander02RWrong",
+            "heldL","HeldItmDefaultL",
+            "heldR","HeldItmDefaultR"
+        ]
+	},
+	{
+        "strName" : "OutfitShooSAlexander02R",
+        "strNameFriendly" : "Shoe: ShooS \"Alexander\" (Right)",
+        "strDesc" : "A practical but fashionable flat - an original Ion Cizmaru design for Sheriff of outer Space's Business Classy line.",
+        "strImg"  : "ItmShooSAlexander02R",
+        "strImgNorm"  : "ItmShooSAlexander01Rn",
+        "strPortraitImg"  : "ItmShooSAlexander02R",
+        "strCOBase"    : "ItmShoe01R",
+        "strCondLoot"    : "CNDOLOutfitShooSAlexander02",
+        "mapSlotEffects" : [
+            "shoeL","BodyShooSAlexander02LWrong",
+            "shoeR","BodyShooSAlexander02R",
+            "heldL","HeldItmDefaultL",
+            "heldR","HeldItmDefaultR"
+        ]
+	},
+	{
+        "strName" : "OutfitShooSShirt01",
+        "strNameFriendly" : "Shirt: ShooS \"Business Classy\" (White)",
+        "strDesc" : "A white shirt including a collar and permanently attached black necktie, for when you need to exude professionalism without breaking the bank and a look that just screams \"owner-operator.\"",
+        "strImg"  : "ItmShooSShirt01",
+        "strImgNorm"  : "ItmShirt01n",
+        "strPortraitImg"  : "ItmShooSShirt01",
+        "strCOBase"    : "ItmTShirt01",
+		"strCondLoot"    : "CNDOLOutfitShooSShirt01",
+        "mapSlotEffects" : [
+            "shirt_in","BodyShooSShirt01",
+            "heldL","HeldItmDefaultSoftL",
+            "heldR","HeldItmDefaultSoftR"
+        ]
+    },
+	{
+        "strName" : "OutfitShooSJacketLeather01",
+        "strNameFriendly" : "Jacket: ShooS \"Bosun\" (Brown)",
+        "strDesc" : "A fine leather jacket. Not actually made from leather.",
+        "strImg"  : "ItmShooSJacketLeather01",
+        "strImgNorm"  : "ItmShooSJacketLeather01n",
+        "strPortraitImg"  : "ItmShooSJacketLeather01",
+        "strCOBase"    : "OutfitShooSLongcoat01",
+        "mapSlotEffects" : [
+            "shirt_out","BodyShooSJacketLeather01",
+            "heldL","HeldItmDefaultSoftL",
+            "heldR","HeldItmDefaultSoftR"
+        ]
+    },
+	{
+        "strName" : "OutfitShooSJacketLeather02",
+        "strNameFriendly" : "Jacket: ShooS \"Bosun\" (Black)",
+        "strDesc" : "A fine leather jacket. Not actually made from leather.",
+        "strImg"  : "ItmShooSJacketLeather02",
+        "strImgNorm"  : "ItmShooSJacketLeather01n",
+        "strPortraitImg"  : "ItmShooSJacketLeather02",
+        "strCOBase"    : "OutfitShooSLongcoat01",
+        "mapSlotEffects" : [
+            "shirt_out","BodyShooSJacketLeather02",
+            "heldL","HeldItmDefaultSoftL",
+            "heldR","HeldItmDefaultSoftR"
+        ]
+    },
+	{
+        "strName" : "OutfitShooSJacketLeather03",
+        "strNameFriendly" : "Jacket: ShooS \"Bosun\" (Red)",
+        "strDesc" : "A fine leather jacket. Not actually made from leather.",
+        "strImg"  : "ItmShooSJacketLeather03",
+        "strImgNorm"  : "ItmShooSJacketLeather01n",
+        "strPortraitImg"  : "ItmShooSJacketLeather03",
+        "strCOBase"    : "OutfitShooSLongcoat01",
+        "mapSlotEffects" : [
+            "shirt_out","BodyShooSJacketLeather03",
+            "heldL","HeldItmDefaultSoftL",
+            "heldR","HeldItmDefaultSoftR"
+        ]
+    },
+	{
+        "strName" : "OutfitShooSSockRibbed02",
+        "strNameFriendly" : "Sock: ShooS \"Eazycomfort\" (Beige)",
+        "strImg"  : "ItmShooSSockRibbed02",
+        "strImgNorm"  : "ItmShooSSockRibbed01n",
+        "strPortraitImg"  : "ItmShooSSockRibbed02",
+        "strCOBase"    : "OutfitShooSSockRibbed01",
+        "mapSlotEffects" : [
+            "sockL","BodyShooSSockRibbed02L",
+		    "sockR","BodyShooSSockRibbed02R",
+            "heldL","HeldItmDefaultSoftL",
+            "heldR","HeldItmDefaultSoftR"
+        ]
+    },
+	{
+        "strName" : "OutfitShooSSockRibbed03",
+        "strNameFriendly" : "Sock: ShooS \"Eazycomfort\" (Black)",
+        "strImg"  : "ItmShooSSockRibbed03",
+        "strImgNorm"  : "ItmShooSSockRibbed01n",
+        "strPortraitImg"  : "ItmShooSSockRibbed03",
+        "strCOBase"    : "OutfitShooSSockRibbed01",
+        "mapSlotEffects" : [
+            "sockL","BodyShooSSockRibbed03L",
+		    "sockR","BodyShooSSockRibbed03R",
+            "heldL","HeldItmDefaultSoftL",
+            "heldR","HeldItmDefaultSoftR"
+        ]
+    },
+	{
+        "strName" : "OutfitShooSSockRibbed04",
+        "strNameFriendly" : "Sock: ShooS \"Eazycomfort\" (Pink)",
+        "strImg"  : "ItmShooSSockRibbed04",
+        "strImgNorm"  : "ItmShooSSockRibbed01n",
+        "strPortraitImg"  : "ItmShooSSockRibbed04",
+        "strCOBase"    : "OutfitShooSSockRibbed01",
+        "mapSlotEffects" : [
+            "sockL","BodyShooSSockRibbed04L",
+		    "sockR","BodyShooSSockRibbed04R",
+            "heldL","HeldItmDefaultSoftL",
+            "heldR","HeldItmDefaultSoftR"
+        ]
+    },
+	{
+        "strName" : "OutfitShooSSockLong01",
+        "strNameFriendly" : "Sock: Long Sock (White)",
+		"strDesc" : "A long opaque white sock.",
+        "strImg"  : "ItmShooSSockLong01",
+        "strImgNorm"  : "ItmShooSSockRibbed01n",
+        "strPortraitImg"  : "ItmShooSSockLong01",
+        "strCOBase"    : "OutfitShooSSockRibbed01",
+        "mapSlotEffects" : [
+            "sockL","BodyShooSSockLong01L",
+		    "sockR","BodyShooSSockLong01R",
+            "heldL","HeldItmDefaultSoftL",
+            "heldR","HeldItmDefaultSoftR"
+        ]
+    },
+	{
+        "strName" : "OutfitShooSSockLong02",
+        "strNameFriendly" : "Sock: Long Sock (Black)",
+		"strDesc" : "A long opaque black sock.",
+        "strImg"  : "ItmShooSSockLong02",
+        "strImgNorm"  : "ItmShooSSockRibbed01n",
+        "strPortraitImg"  : "ItmShooSSockLong02",
+        "strCOBase"    : "OutfitShooSSockRibbed01",
+        "mapSlotEffects" : [
+            "sockL","BodyShooSSockLong02L",
+		    "sockR","BodyShooSSockLong02R",
+            "heldL","HeldItmDefaultSoftL",
+            "heldR","HeldItmDefaultSoftR"
+        ]
+    },
+	{
+        "strName" : "ItmWeaponShooSSawedOff01",
+        "strNameFriendly" : "Cathcart North \"Mare's Leg\" Shotgun",
+		"strDesc" : "An Old Earth pump action projectile shotgun firing tiny pellets in a spread, usually with a 6-shell magazine tube. Brutal against bodies at close range. Not advised for use in pressurized space structures.\n\nShotshell has added perks of doing less damage to sealed hull at any distance, and being less easily traced via forensic ballistics.",
+        "strImg"  : "ItmWeaponShooSSawedOff01",
+        "strImgNorm"  : "ItmWeaponShooSSawedOff01n",
+        "strPortraitImg"  : "ItmWeaponShooSSawedOff01",
+        "strCOBase"    : "ItmWeaponShotgun01",
+		"strCondLoot"    : "CNDOLItmWeaponShooSSawedOff01",
+        "mapSlotEffects" : [
+            "heldL","HeldItmWeaponShooSSawedOff01L",
+            "heldR","HeldItmWeaponShooSSawedOff01R"
+        ]
+    }
+]

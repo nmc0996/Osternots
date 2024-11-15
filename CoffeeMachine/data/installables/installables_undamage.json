@@ -1,0 +1,42 @@
+ [
+	{ 
+	"strName" : "VendingMachineCoffeeUnlooseUndamage", 
+	"strActionCO" : "ItmVendingMachineCoffee", 
+	"strActionGroup" : "Work", 
+	"strTooltip" : "Reduces item's wear and tear to prevent damage.",  
+	"strInteractionTemplate" : "ACTUndamageTEMP", 
+	"CTThem" :  "TIsUndamageableNotContained" , 
+	"aInputs" : [  ], 
+	"fTargetPointRange" : 2.0, 
+	"fDuration" : 0.001, 
+	"bSparks" : true, 
+	"aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], 
+	"aLootCOs" : [ "ItmVendingMachineCoffee" ], 
+	"strJobType" : "repair", 
+	"strAllowLootCTsUs" : "CTWorkProgressAPPS", 
+	"strAllowLootCTsThem" : "CONDUndamageProgress", 
+	"strProgressStat" : "StatDamage", 
+	"strCTThemMultCondTools" : "IsToolMortorq", 
+	"strCTThemMultCondUs" : "StatInstallRateAPPS" 
+	},
+	{ 
+	"strName" : "VendingMachineCoffeeLooseUndamage", 
+	"strActionCO" : "ItmVendingMachineCoffeeLoose", 
+	"strActionGroup" : "Work", 
+	"strTooltip" : "Reduces item's wear and tear to prevent damage.",  
+	"strInteractionTemplate" : "ACTUndamageTEMP", 
+	"CTThem" :  "TIsUndamageableNotContained" , 
+	"aInputs" : [  ], 
+	"fTargetPointRange" : 2.0, 
+	"fDuration" : 0.001, 
+	"bSparks" : true, 
+	"aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], 
+	"aLootCOs" : [ "ItmVendingMachineCoffeeLoose" ], 
+	"strJobType" : "repair", 
+	"strAllowLootCTsUs" : "CTWorkProgressAPPS", 
+	"strAllowLootCTsThem" : "CONDUndamageProgress", 
+	"strProgressStat" : "StatDamage", 
+	"strCTThemMultCondTools" : "IsToolMortorq", 
+	"strCTThemMultCondUs" : "StatInstallRateAPPS" 
+	}
+]

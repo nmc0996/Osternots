@@ -1,0 +1,824 @@
+[
+	{
+		"strName" : "BodyfootLA",
+		"strNameShort" : "L Foot",
+		"strNameFriendly" : "Left Foot",
+		"strItemDef" : "ItmBodyPart01",
+		"strDesc" : "A human left foot. Usually not a good sign if this is found with nothing attached to it.",
+		"strType"    : "Item",
+		"strLoot"    : null,
+		"bSlotLocked" : true,
+		"aInteractions" : [
+		],
+		"aStartingConds" : [
+		  "IsBodyPart=1.0x1.0",
+		  "IsSolid=1.0x1.0",
+		  "IsPocketable=1.0x1.0",
+		  "StatMass=1.0x0.931"
+		],
+		"aUpdateCommands" : [
+		],
+		"aSlotsWeHave" : [
+		  "shoeL", "sockL", "cloak", "helmet_overlay"
+		],
+		"strPortraitImg"  : "ItmBodyPart01",
+		"mapSlotEffects" : [
+		  "footL","BodyfootLA"
+		]
+	},
+	{
+		"strName" : "BodyfootRA",
+		"strNameShort" : "R Foot",
+		"strNameFriendly" : "Right Foot",
+		"strItemDef" : "ItmBodyPart01",
+		"strDesc" : "A human right foot. Usually not a good sign if this is found with nothing attached to it.",
+		"strType"    : "Item",
+		"strLoot"    : null,
+		"bSlotLocked" : true,
+		"aInteractions" : [
+		],
+		"aStartingConds" : [
+		  "IsBodyPart=1.0x1.0",
+		  "IsSolid=1.0x1.0",
+		  "IsPocketable=1.0x1.0",
+		  "StatMass=1.0x0.931"
+		],
+		"aUpdateCommands" : [
+		],
+		"aSlotsWeHave" : [
+		  "shoeR","sockR"
+		],
+		"strPortraitImg"  : "ItmBodyPart01",
+		"mapSlotEffects" : [
+		  "footR","BodyfootRA"
+		]
+    },
+	{
+		"strName" : "PocketBoot",
+		"strNameShort" : "Pocket",
+		"strItemDef" : "Blank",
+		"strDesc" : "A pocket in a boot.",
+		"strNameFriendly" : "Boot Pocket",
+		"strType"    : "Item",
+		"strLoot"    : null,
+		"nStackLimit"    : 1,
+		"aInteractions" : [
+		],
+		"aStartingConds" : [
+		  "IsContainer=1.0x1",
+		  "IsSystem=1.0x1"
+		],
+		"bSlotLocked" : true,
+		"strContainerCT"    : "TIsFitContainerPocket",
+		"nContainerHeight"   : 1,
+		"nContainerWidth"   : 1,
+		"mapPoints"      : [
+		],
+		"mapGUIPropMaps"  : null,
+		"strPortraitImg"  : "blank",
+		"mapSlotEffects" : [
+		  "pocket_boot","Blank"
+		],
+		"jsonPI"            : null
+	},
+	{
+		"strName" : "OutfitShooSBoot01L",
+		"strNameShort" : "Boot L",
+		"strItemDef" : "ItmShooSBoot01L",
+		"strDesc" : "The original boot that launched a brand, reimagined for a new era of space subsistence. Made from 100% cruelty-free materials.",
+		"strNameFriendly" : "Shoe: ShooS \"Cattleman N.e.o.\" (Left)",
+		"strType"    : "Item",
+		"strLoot"    : null,
+		"nStackLimit"    : 1,
+		"aInteractions" : [
+		  "EquipItem",
+		  "DropItem",
+		  "PickupItem"
+		],
+		"aStartingConds" : [
+		  "IsShooS=1.0x1.0",
+		  "IsBrown=1.0x1.0",
+		  "IsShoe=1.0x1.0",
+		  "IsBurnable=1.0x1.0",
+		  "IsFlexible=1.0x1.0",
+		  "IsTempInsulator=1.0x1.0",
+		  "IsSolid=1.0x1.0",
+		  "IsPocketable=1.0x1.0",
+		  "StatMass=1.0x2.1",
+		  "StatBasePrice=1.0x531.0",
+		  "StatDamageMax=1.0x6",
+		  "StatArmorBlunt=1.0x0.5",
+		  "StatArmorCut=1.0x0.5",
+		  "IsCategoryTextiles=1.0x1"
+		],
+		"mapCondTolerance"       : [
+		],
+		"mapPoints"      : [
+		],
+		"mapChargeProfiles"  : [
+		  "Melee","MeleeAttackDefault"
+		],
+		"aUpdateCommands" : [
+		  "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+		],
+		"mapGUIPropMaps"  : null,
+		"strPortraitImg"  : "ItmShooSBoot01L",
+		"strAudioEmitter" : "ItmShoeSound",
+		"mapSlotEffects" : [
+		  "shoeL","BodyShooSBoot01L",
+		  "shoeR","BodyShooSBoot01RWrong",
+		  "heldL","HeldItmDefaultL",
+		  "heldR","HeldItmDefaultR"
+		],
+		"jsonPI"            : null
+	},
+	{
+		"strName" : "OutfitShooSBoot01R",
+		"strNameShort" : "Boot R",
+		"strItemDef" : "ItmShooSBoot01R",
+		"strDesc" : "The original boot that launched a brand, reimagined for a new era of space subsistence. Made from 100% cruelty-free materials.",
+		"strNameFriendly" : "Shoe: ShooS \"Cattleman N.e.o.\" (Right)",
+		"strType"    : "Item",
+		"strLoot"    : null,
+		"nStackLimit"    : 1,
+		"aInteractions" : [
+		  "Inventory",
+		  "EquipItem",
+		  "DropItem",
+		  "PickupItem"
+		],
+		"aStartingConds" : [
+		  "IsShooS=1.0x1.0",
+		  "IsBrown=1.0x1.0",
+		  "IsShoe=1.0x1.0",
+		  "IsBurnable=1.0x1.0",
+		  "IsFlexible=1.0x1.0",
+		  "IsTempInsulator=1.0x1.0",
+		  "IsSolid=1.0x1.0",
+		  "IsPocketable=1.0x1.0",
+		  "StatMass=1.0x2.1",
+		  "StatBasePrice=1.0x531.0",
+		  "StatDamageMax=1.0x6",
+		  "StatArmorBlunt=1.0x0.5",
+		  "StatArmorCut=1.0x0.5",
+		  "IsCategoryTextiles=1.0x1"
+		],
+		"mapCondTolerance"       : [
+		],
+		"mapPoints"      : [
+		],
+		"mapChargeProfiles"  : [
+		  "Melee","MeleeAttackDefault"
+		],
+		"aUpdateCommands" : [
+		  "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+		],
+		"mapGUIPropMaps"  : null,
+		"strPortraitImg"  : "ItmShooSBoot01R",
+		"strAudioEmitter" : "ItmShoeSound",
+		"mapSlotEffects" : [
+		  "shoeL","BodyShooSBoot01LWrong",
+		  "shoeR","BodyShooSBoot01R",
+		  "heldL","HeldItmDefaultL",
+		  "heldR","HeldItmDefaultR"
+		],
+		"jsonPI"            : null
+	},
+	{
+		"strName" : "OutfitShooSGatorz01L",
+		"strNameShort" : "Gator L",
+		"strItemDef" : "ItmShooSGatorz01L",
+		"strDesc" : "The iconic foam clog from Eleganz, now produced without license in space using molds that still bear the old brand logo.",
+		"strNameFriendly" : "Shoe: Eleganz \"Gatorz\" (Left)",
+		"strType"    : "Item",
+		"strLoot"    : null,
+		"nStackLimit"    : 1,
+		"aInteractions" : [
+		  "EquipItem",
+		  "DropItem",
+		  "PickupItem"
+		],
+		"aStartingConds" : [
+		  "IsEleganz=1.0x1.0",
+		  "IsGreen=1.0x1.0",
+		  "IsShoe=1.0x1.0",
+		  "IsBurnable=1.0x1.0",
+		  "IsFlexible=1.0x1.0",
+		  "IsTempInsulator=1.0x1.0",
+		  "IsSolid=1.0x1.0",
+		  "IsPocketable=1.0x1.0",
+		  "StatMass=1.0x2.1",
+		  "StatBasePrice=1.0x96.0",
+		  "StatDamageMax=1.0x4",
+		  "StatArmorBlunt=1.0x0.1",
+		  "StatArmorCut=1.0x0.2",
+		  "IsCategoryTextiles=1.0x1"
+		],
+		"mapCondTolerance"       : [
+		],
+		"mapPoints"      : [
+		],
+		"mapChargeProfiles"  : [
+		  "Melee","MeleeAttackDefault"
+		],
+		"aUpdateCommands" : [
+		  "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+		],
+		"mapGUIPropMaps"  : null,
+		"strPortraitImg"  : "ItmShooSGatorz01L",
+		"strAudioEmitter" : "ItmSmallPlasticGeneralSound",
+		"mapSlotEffects" : [
+		  "shoeL","BodyShooSGatorz01L",
+		  "shoeR","BodyShooSGatorz01RWrong",
+		  "heldL","HeldItmDefaultSoftL",
+		  "heldR","HeldItmDefaultSoftR"
+		],
+		"jsonPI"            : null
+	},
+	{
+		"strName" : "OutfitShooSGatorz01R",
+		"strNameShort" : "Gator R",
+		"strItemDef" : "ItmShooSGatorz01R",
+		"strDesc" : "The iconic foam clog from Eleganz, now produced without license in space using molds that still bear the old brand logo.",
+		"strNameFriendly" : "Shoe: Eleganz \"Gatorz\" (Right)",
+		"strType"    : "Item",
+		"strLoot"    : null,
+		"nStackLimit"    : 1,
+		"aInteractions" : [
+		  "EquipItem",
+		  "DropItem",
+		  "PickupItem"
+		],
+		"aStartingConds" : [
+		  "IsEleganz=1.0x1.0",
+		  "IsGreen=1.0x1.0",
+		  "IsShoe=1.0x1.0",
+		  "IsBurnable=1.0x1.0",
+		  "IsFlexible=1.0x1.0",
+		  "IsTempInsulator=1.0x1.0",
+		  "IsSolid=1.0x1.0",
+		  "IsPocketable=1.0x1.0",
+		  "StatMass=1.0x2.1",
+		  "StatBasePrice=1.0x96.0",
+		  "StatDamageMax=1.0x4",
+		  "StatArmorBlunt=1.0x0.1",
+		  "StatArmorCut=1.0x0.2",
+		  "IsCategoryTextiles=1.0x1"
+		],
+		"mapCondTolerance"       : [
+		],
+		"mapPoints"      : [
+		],
+		"mapChargeProfiles"  : [
+		  "Melee","MeleeAttackDefault"
+		],
+		"aUpdateCommands" : [
+		  "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+		],
+		"mapGUIPropMaps"  : null,
+		"strPortraitImg"  : "ItmShooSGatorz01L",
+		"strAudioEmitter" : "ItmSmallPlasticGeneralSound",
+		"mapSlotEffects" : [
+		  "shoeL","BodyShooSGatorz01LWrong",
+		  "shoeR","BodyShooSGatorz01R",
+		  "heldL","HeldItmDefaultSoftL",
+		  "heldR","HeldItmDefaultSoftR"
+		],
+		"jsonPI"            : null
+	},
+	{
+		"strName" : "OutfitShooSSockSpace01",
+		"strNameShort" : "Sock",
+		"strItemDef" : "ItmShooSSockSpace01",
+		"strDesc" : "A disposable one-size-fits-most synthetic sock with an integrated GripTech™ silicone sole. Feels like wearing tissue paper, and is engineered to about the same tolerances. It has plastic straps for tightening.",
+		"strNameFriendly" : "Sock: Disposable Space Sock",
+		"strType"    : "Item",
+		"strLoot"    : null,
+		"nStackLimit"    : 10,
+		"aInteractions" : [
+		  "EquipItem",
+		  "DropItem",
+		  "PickupItem",
+		  "PickupItemStack"
+		],
+		"aStartingConds" : [
+		  "IsAbsorbent=1.0x1.0",
+		  "IsSheet=1.0x1.0",
+		  "IsGray=1.0x1.0",
+		  "IsShoe=1.0x1.0",
+		  "IsBurnable=1.0x1.0",
+		  "IsFlexible=1.0x1.0",
+		  "IsTempInsulator=1.0x1.0",
+		  "IsSolid=1.0x1.0",
+		  "IsPocketable=1.0x1.0",
+		  "StatMass=1.0x0.01",
+		  "StatBasePrice=1.0x16.0",
+		  "StatDamageMax=1.0x3",
+		  "StatArmorBlunt=1.0x0.01",
+		  "StatArmorCut=1.0x0.01",
+		  "IsCategoryTextiles=1.0x1"
+		],
+		"mapCondTolerance"       : [
+		],
+		"mapPoints"      : [
+		],
+		"mapChargeProfiles"  : [
+		  "Melee","MeleeAttackDefault"
+		],
+		"aUpdateCommands" : [
+		  "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+		],
+		"mapGUIPropMaps"  : null,
+		"strPortraitImg"  : "ItmShooSSockSpace01",
+		"strAudioEmitter" : "ItmClothGeneralSound",
+		"mapSlotEffects" : [
+		  "sockL","BodyShooSSockSpace01L",
+		  "sockR","BodyShooSSockSpace01R",
+		  "heldL","HeldItmDefaultL",
+		  "heldR","HeldItmDefaultR"
+		],
+		"jsonPI"            : null
+	},
+	{
+		"strName" : "OutfitShooSSockRibbed01",
+		"strNameShort" : "Sock",
+		"strItemDef" : "ItmShooSSockRibbed01",
+		"strDesc" : "A lovingly machine-knitted sock with patented anti-static weave. Eazycomfort: There's no such thing as a wrong sock!",
+		"strNameFriendly" : "Sock: ShooS \"Eazycomfort\" (White)",
+		"strType"    : "Item",
+		"strLoot"    : null,
+		"nStackLimit"    : 10,
+		"aInteractions" : [
+		  "EquipItem",
+		  "DropItem",
+		  "PickupItem",
+		  "PickupItemStack"
+		],
+		"aStartingConds" : [
+		  "IsAbsorbent=1.0x1.0",
+		  "IsSheet=1.0x1.0",
+		  "IsShooS=1.0x1.0",
+		  "IsWhite=1.0x1.0",
+		  "IsShoe=1.0x1.0",
+		  "IsBurnable=1.0x1.0",
+		  "IsFlexible=1.0x1.0",
+		  "IsTempInsulator=1.0x1.0",
+		  "IsSolid=1.0x1.0",
+		  "IsPocketable=1.0x1.0",
+		  "StatMass=1.0x0.01",
+		  "StatBasePrice=1.0x51.0",
+		  "StatDamageMax=1.0x5",
+		  "StatArmorBlunt=1.0x0.01",
+		  "StatArmorCut=1.0x0.01",
+		  "IsCategoryTextiles=1.0x1"
+		],
+		"mapCondTolerance"       : [
+		],
+		"mapPoints"      : [
+		],
+		"mapChargeProfiles"  : [
+		  "Melee","MeleeAttackDefault"
+		],
+		"aUpdateCommands" : [
+		  "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+		],
+		"mapGUIPropMaps"  : null,
+		"strPortraitImg"  : "ItmShooSSockRibbed01",
+		"strAudioEmitter" : "ItmClothGeneralSound",
+		"mapSlotEffects" : [
+		  "sockL","BodyShooSSockRibbed01L",
+		  "sockR","BodyShooSSockRibbed01R",
+		  "heldL","HeldItmDefaultSoftL",
+		  "heldR","HeldItmDefaultSoftR"
+		],
+		"jsonPI"            : null
+	},
+	{
+		"strName" : "OutfitShooSLongcoat01",
+		"strNameShort" : "Coat",
+		"strItemDef" : "ItmShooSLongcoat01",
+		"strDesc" : "Sheriff of outer Space's offering of the brown coat, fitted with lapels and buttons for better integration with their Business Classy line of products.",
+		"strNameFriendly" : "ShooS \"Warrior\" Longcoat",
+		"strType"    : "Item",
+		"strLoot"    : "ItmPocketsCoatx4",
+		"aInteractions" : [
+		  "Inventory",
+		  "EquipItem",
+		  "DropItem",
+		  "PickupItem"
+		],
+		"aStartingConds" : [
+		  "IsShooS=1.0x1",
+		  "IsAbsorbent=1.0x1.0",
+		  "IsBurnable=1.0x1.0",
+		  "IsCushion=1.0x1.0",
+		  "IsFlexible=1.0x1.0",
+		  "IsSheet=1.0x1.0",
+		  "IsTempInsulator=1.0x1.0",
+		  "IsSolid=1.0x1.0",
+		  "StatMass=1.0x1.0",
+		  "StatBasePrice=1.0x225.0",
+		  "StatDamageMax=1.0x4",
+		  "StatArmorBlunt=1.0x0.5",
+		  "StatArmorCut=1.0x1",
+		  "IsCategoryTextiles=1.0x1"
+		],
+		"mapCondTolerance"       : [
+		],
+		"aSlotsWeHave" : [
+		  "pocket_coatL",
+		  "pocket_coatR",
+		  "pocket_breastL",
+		  "pocket_breastR"
+		],
+		"mapPoints"      : [
+		],
+		"mapChargeProfiles"  : [
+		  "Melee","MeleeAttackDefault",
+		  "Normal","WearAndTearDefault"
+		],
+		"aUpdateCommands" : [
+		  "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
+		],
+		"mapGUIPropMaps"  : null,
+		"strPortraitImg"  : "CrewSuit01",
+		"strAudioEmitter" : "ItmClothGeneralSound",
+		"mapSlotEffects" : [
+		  "shirt_out","BodyShooSLongcoat01",
+		  "heldL","HeldItmDefaultSoftL",
+		  "heldR","HeldItmDefaultSoftR"
+		],
+		"jsonPI"            : null
+	},
+	{
+    "strName" : "OutfitShooSJacket01",
+    "strNameShort" : "Jacket",
+    "strItemDef" : "ItmShooSJacket01",
+    "strDesc" : "A factory modification of the standard spacer coveralls, favoured by those who aspire towards white collar status but nevertheless lack access to anything but standard spacer coveralls.",
+    "strNameFriendly" : "Jacket: Gunmetal",
+    "strType"    : "Item",
+    "strLoot"    : "ItmPocketsCoatx4",
+    "aInteractions" : [
+      "Inventory",
+      "EquipItem",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsShooS=1.0x1.0",
+      "IsAbsorbent=1.0x1.0",
+      "IsBurnable=1.0x1.0",
+      "IsCushion=1.0x1.0",
+      "IsFlexible=1.0x1.0",
+      "IsSheet=1.0x1.0",
+      "IsTempInsulator=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatMass=1.0x1.0",
+      "StatBasePrice=1.0x172.0",
+      "StatDamageMax=1.0x6.5",
+      "StatArmorBlunt=1.0x0.05",
+      "StatArmorCut=1.0x0.05",
+      "IsCategoryTextiles=1.0x1"
+    ],
+    "aSlotsWeHave" : [
+      "pocket_coatL",
+	  "pocket_coatR",
+	  "pocket_breastL",
+      "pocket_breastR"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault",
+      "Normal","WearAndTearDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmCrewOutfit06",
+    "strAudioEmitter" : "ItmClothGeneralSound",
+    "mapSlotEffects" : [
+      "shirt_mid","BodyShooSJacket01",
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "OutfitShooSDogfur01",
+    "strNameShort" : "Black Pelt",
+    "strItemDef" : "ItmShooSDogfur01",
+    "strDesc" : "No one is certain where these pelts came from or who started the trend of wearing them, but they have since become something of a status symbol within the pirate fraternities.",
+    "strNameFriendly" : "Black Pelt",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "EquipItem",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAbsorbent=1.0x1.0",
+      "IsBurnable=1.0x1.0",
+      "IsCushion=1.0x1.0",
+      "IsFlexible=1.0x1.0",
+      "IsSheet=1.0x1.0",
+      "IsTempInsulator=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatMass=1.0x1.0",
+      "StatBasePrice=1.0x1000.0",
+      "StatDamageMax=1.0x6.5",
+      "StatArmorBlunt=1.0x0.05",
+      "StatArmorCut=1.0x0.05",
+      "IsCategoryTextiles=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault",
+      "Normal","WearAndTearDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmShooSDogfur01",
+    "strAudioEmitter" : "ItmClothGeneralSound",
+    "mapSlotEffects" : [
+      "cloak","BodyShooSDogfur01",
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "OutfitShooSEVAHoodPirate01",
+    "strNameShort" : "Hood",
+    "strItemDef" : "ItmShooSEVAHoodPirate01",
+    "strDesc" : "A cloth hood worn over EVA helmets, to conceal one's identity or perhaps for the intimidation factor.",
+    "strNameFriendly" : "Hood: Brown",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "EquipItem",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAbsorbent=1.0x1.0",
+      "IsBurnable=1.0x1.0",
+      "IsCushion=1.0x1.0",
+      "IsFlexible=1.0x1.0",
+      "IsSheet=1.0x1.0",
+      "IsTempInsulator=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatMass=1.0x1.0",
+      "StatBasePrice=1.0x36.0",
+      "StatDamageMax=1.0x6.5",
+      "StatArmorBlunt=1.0x0.05",
+      "StatArmorCut=1.0x0.05",
+      "IsCategoryTextiles=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault",
+      "Normal","WearAndTearDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmShooSEVAHoodPirate01",
+    "strAudioEmitter" : "ItmClothGeneralSound",
+    "mapSlotEffects" : [
+      "helmet_overlay","BodyShooSEVAHoodPirate01",
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "OutfitShooSEVAHoodPirate02",
+    "strNameShort" : "Hood",
+    "strItemDef" : "ItmShooSEVAHoodPirate02",
+    "strDesc" : "A cloth hood worn over EVA helmets, to conceal one's identity or perhaps for the intimidation factor.",
+    "strNameFriendly" : "Hood: Navy",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "EquipItem",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAbsorbent=1.0x1.0",
+      "IsBurnable=1.0x1.0",
+      "IsCushion=1.0x1.0",
+      "IsFlexible=1.0x1.0",
+      "IsSheet=1.0x1.0",
+      "IsTempInsulator=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatMass=1.0x1.0",
+      "StatBasePrice=1.0x36.0",
+      "StatDamageMax=1.0x6.5",
+      "StatArmorBlunt=1.0x0.05",
+      "StatArmorCut=1.0x0.05",
+      "IsCategoryTextiles=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault",
+      "Normal","WearAndTearDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmShooSEVAHoodPirate02",
+    "strAudioEmitter" : "ItmClothGeneralSound",
+    "mapSlotEffects" : [
+      "helmet_overlay","BodyShooSEVAHoodPirate02",
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "OutfitShooSSkirtCargo01",
+    "strNameShort" : "Skirt",
+    "strItemDef" : "ItmShooSSkirtCargo01",
+    "strDesc" : "A skirt that's all business, with integrated shorts for zero-G modesty.",
+    "strNameFriendly" : "Cargo Skirt: Black",
+    "strType"    : "Item",
+    "strLoot"    : "ItmPocketsPantsCargox2Hipx2",
+    "aInteractions" : [
+      "Inventory",
+      "EquipItem",
+      "DropItem",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds" : [
+      "IsAbsorbent=1.0x1.0",
+      "IsBurnable=1.0x1.0",
+      "IsCushion=1.0x1.0",
+      "IsFlexible=1.0x1.0",
+      "IsSheet=1.0x1.0",
+      "IsTempInsulator=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatMass=1.0x0.25",
+      "StatBasePrice=1.0x173.0",
+      "StatDamageMax=1.0x4",
+      "StatArmorBlunt=1.0x0.05",
+      "StatArmorCut=1.0x0.2",
+      "IsCategoryTextiles=1.0x1"
+    ],
+    "aSlotsWeHave" : [
+      "pocket_hipL",
+      "pocket_hipR",
+      "pocket_cargo01",      
+      "pocket_cargo02"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault",
+      "Normal","WearAndTearDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmCargoPantsStrapped04",
+    "strAudioEmitter" : "ItmClothGeneralSound",
+    "mapSlotEffects" : [
+      "pants_mid","BodyShooSSkirtCargo01",
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"            : null
+    },
+	{
+    "strName" : "OutfitShooSSkirt01",
+    "strNameShort" : "Skirt",
+    "strItemDef" : "ItmShooSSkirt01",
+    "strDesc" : "A pleated armature skirt that works both in and out of microgravity. Surprisingly has pockets.",
+    "strNameFriendly" : "Skirt: Black",
+    "strType"    : "Item",
+    "strLoot"    : "ItmPocketsCoverallsx2",
+    "aInteractions" : [
+      "Inventory",
+      "EquipItem",
+      "DropItem",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds" : [
+      "IsAbsorbent=1.0x1.0",
+      "IsBurnable=1.0x1.0",
+      "IsCushion=1.0x1.0",
+      "IsFlexible=1.0x1.0",
+      "IsSheet=1.0x1.0",
+      "IsTempInsulator=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatMass=1.0x0.25",
+      "StatBasePrice=1.0x251.0",
+      "StatDamageMax=1.0x4",
+      "StatArmorBlunt=1.0x0.05",
+      "StatArmorCut=1.0x0.2",
+      "IsCategoryTextiles=1.0x1"
+    ],
+    "aSlotsWeHave" : [
+      "pocket_hipL",
+      "pocket_hipR"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault",
+      "Normal","WearAndTearDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmShooSSkirt01",
+    "strAudioEmitter" : "ItmClothGeneralSound",
+    "mapSlotEffects" : [
+      "pants_mid","BodyShooSSkirt01",
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"            : null
+    },
+	{
+    "strName" : "OutfitShooSShorts01",
+    "strNameShort" : "Shorts",
+    "strItemDef" : "ItmShooSShorts01",
+    "strDesc" : "Simple athletic shorts that can be worn inside a spacesuit or under a skirt.",
+    "strNameFriendly" : "Shorts: Black",
+    "strType"    : "Item",
+    "strLoot"    : "ItmPocketsPantsx1",
+    "aInteractions" : [
+      "Inventory",
+      "EquipItem",
+      "DropItem",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds" : [
+      "IsAbsorbent=1.0x1.0",
+      "IsBurnable=1.0x1.0",
+      "IsCushion=1.0x1.0",
+      "IsFlexible=1.0x1.0",
+      "IsSheet=1.0x1.0",      
+      "IsPocketable=1.0x1.0",
+      "IsTempInsulator=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatMass=1.0x0.125",
+      "StatBasePrice=1.0x91.0",
+      "StatDamageMax=1.0x3",
+      "StatArmorBlunt=1.0x0.03",
+      "StatArmorCut=1.0x0.03",
+      "IsCategoryTextiles=1.0x1"
+    ],
+    "aSlotsWeHave" : [
+      "pocket_hipR"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault",
+      "Normal","WearAndTearDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmShooSShorts01",
+    "strAudioEmitter" : "ItmClothGeneralSound",
+    "mapSlotEffects" : [
+      "pants_in","BodyShooSShorts01",
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"            : null
+  }
+]

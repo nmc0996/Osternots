@@ -1,0 +1,43 @@
+[
+		
+        {
+        "strName" : "MSVendingMachineCoffeeDamage",
+        "strTitle" : "",
+        "strDesc" : "[us] is damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmVendingMachineCoffeeDamage"
+      },
+      {
+        "strName" : "MSVendingMachineCoffeeDestroy",
+        "strTitle" : "",
+        "strDesc" : "[us] is destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmVendingMachineCoffeeComponentsShell"
+      },
+      {
+        "strName" : "MSVendingMachineCoffeeLooseDamage",
+        "strTitle" : "",
+        "strDesc" : "[us] is damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmVendingMachineCoffeeLooseDamage"
+      },
+      {
+        "strName" : "MSVendingMachineCoffeeLooseDestroy", 
+        "strTitle" : "",
+        "strDesc" : "[us] is destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmVendingMachineCoffeeComponentsShell"
+      }
+]

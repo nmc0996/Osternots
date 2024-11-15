@@ -1,0 +1,163 @@
+[
+{
+    "strName" : "ItmVendingMachineCoffee",
+    "strNameShort" : "Coffee Machine",
+    "strItemDef" : "ItmVendingMachineCoffee",
+    "strNameFriendly" : "Coffee Machine",
+    "strLoot"    : "ItmVendingMachineCoffee",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+	  "IsVendingMachineCoffee=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsContainer=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsWaterproof=1.0x1",
+      "StatBasePrice=1.0x2485.00",
+	  "StatDismantleProgressMax=1.0x240",
+      "StatInstallProgressMax=1.0x300",
+      "StatUninstallProgressMax=1.0x300",
+      "StatMass=1.0x31.0",
+      "StatDamageMax=1.0x6",
+      "IsMechanical=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTVendingMachineCoffeeDamage,StatDamageMax,1.0"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolid",
+	"nContainerHeight"  : 3,
+    "nContainerWidth"  : 3,
+    "mapPoints"      : [
+      "use,24,0"
+    ],
+    "strPortraitImg"  : "ItmVendingMachineCoffee"
+  },
+  {
+    "strName" : "ItmVendingMachineCoffeeLoose",
+    "strNameShort" : "Coffee Machine",
+    "strItemDef" : "ItmVendingMachineCoffeeLoose",
+    "strNameFriendly" : "Coffee Machine (Loose)",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+	  "IsVendingMachineCoffee=1.0x1",
+      "IsContainer=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "IsWaterproof=1.0x1",
+      "StatBasePrice=1.0x2485.00",
+      "StatDismantleProgressMax=1.0x240",
+      "StatInstallProgressMax=1.0x300",
+      "StatUninstallProgressMax=1.0x300",
+      "StatMass=1.0x31.0",
+      "StatDamageMax=1.0x15",
+      "IsMechanical=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolid",
+    "nContainerHeight"  : 3,
+    "nContainerWidth"  : 3,
+    "mapPoints"      : [
+      "use,24,0"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTVendingMachineCoffeeLooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmVendingMachineCoffeeLoose"
+  },
+  {
+    "strName" : "ItmVendingMachineCoffeeDmg",
+    "strNameShort" : "Coffee Machine",
+    "strItemDef" : "ItmVendingMachineCoffeeDmg",
+    "strNameFriendly" : "Coffee Machine (Damaged)",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsVendingMachineCoffee=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsContainer=1.0x1",
+      "IsOversized=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsWaterproof=1.0x1",
+      "StatBasePrice=1.0x2485.00",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x300",
+      "StatUninstallProgressMax=1.0x300",
+      "StatRepairProgressMax=1.0x900",
+      "StatMass=1.0x31.0",
+      "StatDamageMax=1.0x45",
+      "IsMechanical=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolid",
+    "nContainerHeight"  : 3,
+    "nContainerWidth"  : 3,
+    "mapPoints"      : [
+      "use,24,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTVendingMachineCoffeeDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmVendingMachineCoffeeDmg02",
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "ItmVendingMachineCoffeeDmgLoose",
+    "strNameShort" : "Coffee Machine",
+    "strItemDef" : "ItmVendingMachineCoffeeDmgLoose",
+    "strNameFriendly" : "Coffee Machine (Loose, Damaged)",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsVendingMachineCoffee=1.0x1",
+      "IsContainer=1.0x1",
+      "IsOversized=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "IsWaterproof=1.0x1",
+      "StatBasePrice=1.0x2485.00",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x300",
+      "StatUninstallProgressMax=1.0x300",
+      "StatRepairProgressMax=1.0x900",
+      "StatMass=1.0x31.0",
+      "StatDamageMax=1.0x45",
+      "IsMechanical=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolid",
+    "nContainerHeight"  : 3,
+    "nContainerWidth"  : 3,
+    "mapPoints"      : [
+      "use,24,0"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTVendingMachineCoffeeLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmVendingMachineCoffeeDmg02Loose"
+  }
+]

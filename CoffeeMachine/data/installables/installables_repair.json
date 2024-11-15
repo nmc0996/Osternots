@@ -1,0 +1,40 @@
+[
+	{ 
+	"strName" : "VendingMachineCoffeeDmgRepair", 
+	"strActionCO" : "ItmVendingMachineCoffeeDmg", 
+	"strActionGroup" : "Work", "strTooltip" : "Repairs item to a functional state.",  
+	"strInteractionTemplate" : "ACTRepairTEMP", "CTThem" :  "TIsRepairableNotContained" , 
+	"aInputs" : [ "TIsMotor=1.0x1", "TIsHeatSink=1.0x1", "TIsPartsMechSmall=1.0x3", "TIsScrapSteel=1.0x1" ], 
+	"fTargetPointRange" : 2.0, 
+	"fDuration" : 0.001, 
+	"bSparks" : true, 
+	"aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], 
+	"aLootCOs" : [ "ItmVendingMachineCoffee" ], 
+	"strJobType" : "repair", 
+	"strAllowLootCTsUs" : "CTWorkProgressAPPS", 
+	"strAllowLootCTsThem" : "CONDRepairProgressx5", 
+	"strProgressStat" : "StatRepairProgress", 
+	"strCTThemMultCondTools" : "IsToolMortorq", 
+	"strCTThemMultCondUs" : "StatInstallRateAPPS" 
+	},
+    { 
+	"strName" : "VendingMachineCoffeeDmgLooseRepair", 
+	"strActionCO" : "ItmVendingMachineCoffeeDmgLoose", 
+	"strActionGroup" : "Work", 
+	"strTooltip" : "Repairs item to a functional state.",  
+	"strInteractionTemplate" : "ACTRepairTEMP", 
+	"CTThem" :  "TIsRepairableNotContained" , 
+	"aInputs" : [ "TIsMotor=1.0x1", "TIsHeatSink=1.0x1", "TIsPartsMechSmall=1.0x3", "TIsScrapSteel=1.0x1" ], 
+	"fTargetPointRange" : 2.0, 
+	"fDuration" : 0.001, 
+	"bSparks" : true, 
+	"aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], 
+	"aLootCOs" : [ "ItmVendingMachineCoffeeLoose" ], 
+	"strJobType" : "repair", 
+	"strAllowLootCTsUs" : "CTWorkProgressAPPS", 
+	"strAllowLootCTsThem" : "CONDRepairProgressx5", 
+	"strProgressStat" : "StatRepairProgress", 
+	"strCTThemMultCondTools" : "IsToolMortorq", 
+	"strCTThemMultCondUs" : "StatInstallRateAPPS" 
+	}
+]
